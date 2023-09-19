@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 Data Collection & Processing
 # load the data from csv file to Pandas DataFrame
-titanic_data = pd.read_csv('/content/train.csv')
+titanic_data = pd.read_csv('tested.csv')
 # printing the first 5 rows of the dataframe
 titanic_data.head()
 # number of rows and Columns
