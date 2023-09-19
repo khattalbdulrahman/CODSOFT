@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-iris = pd.read_csv("/content/IRIS.csv")
+iris = pd.read_csv("IRIS.csv")
 Now let’s have a look at the first five rows of this dataset:
 print(iris.head())
 print(iris.describe())
